@@ -4,9 +4,32 @@
     background-color: #000;
 }
 
+.ms_white-text{
+    color: #fff;
+}
+
+.ms_button {
+    border-radius: 50px;
+}
+
+.ms_button-buy {
+    background-color: #cd3d0f;
+    color: #fff;
+}
+
 /* Header */
 
 .ms_sony-logo {
     padding: 5px 0;
     width: 100px;
+}
+
+/* Jumbotron */
+
+.ms_jumbo-bg {
+    margin-top: 90px; /* Header is 90px tall, modify this if you touch the header's height */
+    height: 600px;
+    background-image: url("../img/jumbo-bg.png");
+    background-size: cover;
+    background-position: center;
 }
