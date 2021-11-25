@@ -1,0 +1,12 @@
+/* General utility / backgrounds */
+
+.ms_bg-black {
+    background-color: #000;
+}
+
+/* Header */
+
+.ms_sony-logo {
+    padding: 5px 0;
+    width: 100px;
+}
