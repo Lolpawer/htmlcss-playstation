@@ -28,8 +28,16 @@
 
 .ms_jumbo-bg {
     margin-top: 90px; /* Header is 90px tall, modify this if you touch the header's height */
-    height: 600px;
+    padding-top: 400px;
     background-image: url("../img/jumbo-bg.png");
     background-size: cover;
     background-position: center;
+}
+
+/* Responsive */
+
+@media screen and (min-width: 576px) {
+    .ms_container-sm {
+        padding: 0 25px;
+    }
 }
