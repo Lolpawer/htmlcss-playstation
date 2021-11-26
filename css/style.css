@@ -4,8 +4,12 @@
     background-color: #000;
 }
 
-.ms_white-text{
+.ms_white-text {
     color: #fff;
+}
+
+.ms_blue-text {
+    color: #2d64e6;
 }
 
 .ms_button {
@@ -15,6 +19,19 @@
 .ms_button-buy {
     background-color: #cd3d0f;
     color: #fff;
+}
+
+.ms_button-blue {
+    background-color: #2d64e6;
+    color: #fff;
+}
+
+.ms_show-lg {
+    display: none;
+}
+
+.ms_blue-border-bot {
+    border-bottom: 2px solid #2d64e6;
 }
 
 /* Header */
@@ -34,10 +51,24 @@
     background-position: center;
 }
 
+/* It Takes Two */
+
+.ms_it-takes-two-bg {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 /* Responsive */
 
 @media screen and (min-width: 576px) {
     .ms_container-sm {
         padding: 0 25px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .ms_show-md {
+        display: block;
     }
 }
