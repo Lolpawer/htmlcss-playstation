@@ -76,6 +76,13 @@
     background-position: center;
 }
 
+/* Social Media */
+
+.ms_social-media-container {
+    max-width: 576px;
+    margin: 0 auto;
+}
+
 /* Responsive */
 
 @media screen and (min-width: 576px) {
