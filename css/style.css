@@ -4,6 +4,10 @@
     background-color: #000;
 }
 
+.ms_bg-gray {
+    background-color: #bebcbb;
+}
+
 .ms_white-text {
     color: #fff;
 }
@@ -26,12 +30,21 @@
     color: #fff;
 }
 
-.ms_show-lg {
+.ms_button-gray {
+    background-color: #d9dadc;
+    color: #2d64e6;
+}
+
+.ms_show-md {
     display: none;
 }
 
 .ms_blue-border-bot {
     border-bottom: 2px solid #2d64e6;
+}
+
+.ms_img-width-100 {
+    min-height: 100%;
 }
 
 /* Header */
@@ -67,7 +80,7 @@
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
     .ms_show-md {
         display: block;
     }
