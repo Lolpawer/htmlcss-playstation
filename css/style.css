@@ -12,6 +12,10 @@
     background-color: #161c3b;
 }
 
+.ms_bg-blue {
+    background-color: #00439c;
+}
+
 .ms_white-text {
     color: #fff;
 }
@@ -51,6 +55,10 @@
     min-height: 100%;
 }
 
+.ms_img-fluid {
+    height: 100%;
+}
+
 /* Header */
 
 .ms_sony-logo {
@@ -81,6 +89,16 @@
 .ms_social-media-container {
     max-width: 576px;
     margin: 0 auto;
+}
+
+/* Footer */
+
+.ms_footer-ps-logo {
+    height: 100px;
+}
+
+.ms_footer-sie-logo {
+    height: 50px;
 }
 
 /* Responsive */
