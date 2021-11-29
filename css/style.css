@@ -103,6 +103,13 @@
     background-position: center;
 }
 
+/* PlayStation Plus */
+
+.ms_psplus-img-height {
+    height: 100%;
+    width: 100%;
+}
+
 /* Social Media */
 
 .ms_social-media-container {
