@@ -75,6 +75,10 @@
     width: 40px ;
 }
 
+.ms_img-border-round {
+    border-radius: 25px;
+}
+
 /* Jumbotron */
 
 .ms_jumbo-bg {
@@ -86,10 +90,6 @@
 }
 
 /* Game Listing */
-
-.ms_game-listing-border {
-    border-radius: 25px;
-}
 
 .ms_game-listing-border-blue {
     border: 2px solid #2d64e6;
