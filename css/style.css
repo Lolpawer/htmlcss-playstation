@@ -85,6 +85,16 @@
     background-position: center;
 }
 
+/* Game Listing */
+
+.ms_game-listing-border {
+    border-radius: 25px;
+}
+
+.ms_game-listing-border-blue {
+    border: 2px solid #2d64e6;
+}
+
 /* It Takes Two */
 
 .ms_it-takes-two-bg {
