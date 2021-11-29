@@ -43,6 +43,11 @@
     color: #2d64e6;
 }
 
+.ms_button-access {
+    background-color: #363636;
+    color: #fff;
+}
+
 .ms_show-md {
     display: none;
 }
@@ -64,6 +69,10 @@
 .ms_sony-logo {
     padding: 5px 0;
     width: 100px;
+}
+
+.ms_search-icon {
+    width: 40px ;
 }
 
 /* Jumbotron */
